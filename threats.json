@@ -1,0 +1,283 @@
+[
+    { "id": 1, "type": "phishing", "text": "Urgent! Click http://free-gift.com to claim your $500 reward!" },
+    { "id": 2, "type": "phishing", "text": "Your account has been suspended. Verify now at http://secure-banking.io" },
+    { "id": 3, "type": "phishing", "text": "You’ve won a free iPhone! Claim it at http://win-now.com" },
+    { "id": 4, "type": "misinformation", "text": "Scientists confirm the Earth is flat!" },
+    { "id": 5, "type": "misinformation", "text": "Study proves drinking bleach cures COVID-19" },
+    { "id": 6, "type": "misinformation", "text": "Vaccines contain microchips used to track people." },
+    { "id": 7, "type": "safe", "text": "Good morning! Team meeting is at 10 AM." },
+    { "id": 8, "type": "safe", "text": "Happy Birthday! Wishing you a great day ahead." },
+    { "id": 9, "type": "safe", "text": "Let’s catch up for lunch tomorrow!" },
+    { "id": 10, "type": "spoofing", "text": "From: admin@paypal.com (really fake@phishmail.com) — Update your payment info." },
+    { "id": 11, "type": "spoofing", "text": "Security alert from Google: Suspicious login from Nigeria. Click to secure your account." },
+    { "id": 12, "type": "spoofing", "text": "This is your IT department. Please provide your password for verification." },
+    { "id": 13, "type": "malware", "text": "Install this new security software now: http://security-protection.com/download.exe" },
+    { "id": 14, "type": "malware", "text": "Download this new game mod to unlock free skins! http://gamerzmods.ru" },
+    { "id": 15, "type": "malware", "text": "Update your Flash Player immediately: http://fake-update-site.com/flash.exe" },
+    { "id": 16, "type": "deepfake", "text": "Video of CEO saying employees won’t be paid this month." },
+    { "id": 17, "type": "deepfake", "text": "Politician caught admitting to crimes in shocking video!" },
+    { "id": 18, "type": "deepfake", "text": "Celebrity confesses to quitting acting forever in viral video." },
+    { "id": 19, "type": "safe", "text": "Your order has been shipped. Track it here: http://legit-shop.com/track" },
+    { "id": 20, "type": "safe", "text": "Thanks for joining our webinar today!" },
+    { "id": 21, "type": "phishing", "text": "Alert: Your PayPal account is locked. Unlock now at http://pay-pal-check.com" },
+    { "id": 22, "type": "misinformation", "text": "5G towers cause cancer, says anonymous doctor." },
+    { "id": 23, "type": "spoofing", "text": "Hey it’s your friend from college — check out this photo: http://img.fake.com" },
+    { "id": 24, "type": "malware", "text": "Free cracked software download: http://totally-legit.ru/crack.zip" },
+    { "id": 25, "type": "deepfake", "text": "Shocking video shows Elon Musk promoting Bitcoin scam." },
+    { "id": 26, "type": "safe", "text": "See you at the movie night later?" },
+    { "id": 27, "type": "safe", "text": "Your subscription has been renewed successfully." },
+    { "id": 28, "type": "phishing", "text": "Last chance! Reactivate your Netflix account here: http://netflix-billing.com" },
+    { "id": 29, "type": "malware", "text": "Scan your PC for viruses now: http://scan-now.download" },
+    { "id": 30, "type": "deepfake", "text": "Exclusive leaked video of PM reveals shocking secrets." },
+    
+    {
+      "id": 31,
+      "type": "mitm",
+      "text": "ARP spoofing attack intercepting LAN traffic to steal credentials from unencrypted HTTP sessions."
+    },
+    {
+      "id": 32,
+      "type": "xss",
+      "text": "Stored XSS payload injected into a comment field: <script>alert('XSS')</script>"
+    },
+    {
+      "id": 33,
+      "type": "social_engineering",
+      "text": "Phishing email: 'Your account has been compromised. Reset password at http://fake-bank.com'"
+    },
+    {
+      "id": 34,
+      "type": "ransomware",
+      "text": "Encrypted files with .locked extension demanding $10k BTC payment in 72 hours."
+    },
+    {
+      "id": 35,
+      "type": "spyware",
+      "text": "Keylogger recording keystrokes and sending data to C2 server via HTTP POST."
+    },
+    {
+      "id": 36,
+      "type": "mitm",
+      "text": "SSL stripping attack downgrading HTTPS to HTTP on public Wi-Fi."
+    },
+    {
+      "id": 37,
+      "type": "trojan",
+      "text": "Fake antivirus software installing backdoor during 'system scan'."
+    },
+    {
+      "id": 38,
+      "type": "social_engineering",
+      "text": "Pretexting call: 'I'm from IT. Your account needs immediate verification at http://it-support.com'"
+    },
+    {
+      "id": 39,
+      "type": "adware",
+      "text": "Malicious browser extension redirecting searches to affiliate links."
+    },
+    {
+      "id": 40,
+      "type": "mitm",
+      "text": "DNS poisoning redirecting users to fake banking portal."
+    },
+    {
+      "id": 41,
+      "type": "rootkit",
+      "text": "Kernel-mode rootkit hiding malicious processes from system monitoring tools."
+    },
+    {
+      "id": 42,
+      "type": "xss",
+      "text": "Reflected XSS in search parameter: ?q=<script>document.write(document.cookie)</script>"
+    },
+    {
+      "id": 43,
+      "type": "social_engineering",
+      "text": "Baiting USB drive labeled 'Confidential' containing malware payload."
+    },
+    {
+      "id": 44,
+      "type": "ransomware",
+      "text": "Double extortion attack threatening to leak sensitive data unless ransom paid."
+    },
+    {
+      "id": 45,
+      "type": "spyware",
+      "text": "Screen recording software capturing sensitive financial transactions."
+    },
+    {
+      "id": 46,
+      "type": "mitm",
+      "text": "HTTPS spoofing using fake certificate authority to intercept encrypted traffic."
+    },
+    {
+      "id": 47,
+      "type": "trojan",
+      "text": "Fake software update installing remote access tool (RAT)."
+    },
+    {
+      "id": 48,
+      "type": "social_engineering",
+      "text": "Whaling email targeting executives with fake legal threat requiring immediate action."
+    },
+    {
+      "id": 49,
+      "type": "adware",
+      "text": "Malicious mobile app displaying intrusive pop-up ads and tracking location."
+    },
+    {
+      "id": 50,
+      "type": "mitm",
+      "text": "Wi-Fi evil twin attack capturing credentials from unsecured network."
+    },
+    {
+      "id": 51,
+      "type": "rootkit",
+      "text": "User-mode rootkit modifying system files to evade detection."
+    },
+    {
+      "id": 52,
+      "type": "xss",
+      "text": "DOM-based XSS manipulating client-side JavaScript to steal session cookies."
+    },
+    {
+      "id": 53,
+      "type": "social_engineering",
+      "text": "Vishing call: 'Your credit card has suspicious activity. Verify details now.'"
+    },
+    {
+      "id": 54,
+      "type": "ransomware",
+      "text": "Ransomware encrypting database backups with custom encryption algorithm."
+    },
+    {
+      "id": 55,
+      "type": "spyware",
+      "text": "Steganography-based spyware hiding data in image files."
+    },
+    {
+      "id": 56,
+      "type": "mitm",
+      "text": "Session hijacking attack stealing cookies from unencrypted HTTP sessions."
+    },
+    {
+      "id": 57,
+      "type": "trojan",
+      "text": "Fake PDF reader installing banking Trojan during installation."
+    },
+    {
+      "id": 58,
+      "type": "social_engineering",
+      "text": "Phishing SMS: 'Your package delivery failed. Click to reschedule: http://fake-delivery.com'"
+    },
+    {
+      "id": 59,
+      "type": "adware",
+      "text": "Malicious browser extension injecting affiliate links into search results."
+    },
+    {
+      "id": 60,
+      "type": "mitm",
+      "text": "ICMP spoofing attack redirecting traffic to malicious router."
+    },
+    {
+      "id": 61,
+      "type": "rootkit",
+      "text": "Kernel-mode rootkit modifying system calls to hide malicious processes."
+    },
+    {
+      "id": 62,
+      "type": "xss",
+      "text": "Persistent XSS in user profile field executing JavaScript on admin dashboard."
+    },
+    {
+      "id": 63,
+      "type": "social_engineering",
+      "text": "Pretexting email: 'I'm from HR. Your payroll details need urgent verification.'"
+    },
+    {
+      "id": 64,
+      "type": "ransomware",
+      "text": "Ransomware targeting cloud storage backups with automated encryption."
+    },
+    {
+      "id": 65,
+      "type": "spyware",
+      "text": "Keylogger recording credentials from banking websites."
+    },
+    {
+      "id": 66,
+      "type": "mitm",
+      "text": "SSL/TLS stripping attack forcing HTTP connections on secure websites."
+    },
+    {
+      "id": 67,
+      "type": "trojan",
+      "text": "Fake antivirus software installing cryptocurrency miner."
+    },
+    {
+      "id": 68,
+      "type": "social_engineering",
+      "text": "Baiting USB drive labeled 'Confidential' containing malware payload."
+    },
+    {
+      "id": 69,
+      "type": "adware",
+      "text": "Malicious mobile app displaying intrusive pop-up ads and tracking location."
+    },
+    {
+      "id": 70,
+      "type": "mitm",
+      "text": "DNS tunneling attack exfiltrating data through DNS queries."
+    },
+    {
+      "id": 71,
+      "type": "rootkit",
+      "text": "User-mode rootkit modifying system files to evade detection."
+    },
+    {
+      "id": 72,
+      "type": "xss",
+      "text": "Client-side XSS manipulating DOM to steal session cookies."
+    },
+    {
+      "id": 73,
+      "type": "social_engineering",
+      "text": "Whaling email targeting executives with fake legal threat requiring immediate action."
+    },
+    {
+      "id": 74,
+      "type": "ransomware",
+      "text": "Ransomware encrypting database backups with custom encryption algorithm."
+    },
+    {
+      "id": 75,
+      "type": "spyware",
+      "text": "Steganography-based spyware hiding data in image files."
+    },
+    {
+      "id": 76,
+      "type": "mitm",
+      "text": "Session hijacking attack stealing cookies from unencrypted HTTP sessions."
+    },
+    {
+      "id": 77,
+      "type": "trojan",
+      "text": "Fake PDF reader installing banking Trojan during installation."
+    },
+    {
+      "id": 78,
+      "type": "social_engineering",
+      "text": "Phishing SMS: 'Your package delivery failed. Click to reschedule: http://fake-delivery.com'"
+    },
+    {
+      "id": 79,
+      "type": "adware",
+      "text": "Malicious browser extension injecting affiliate links into search results."
+    },
+    {
+      "id": 80,
+      "type": "mitm",
+      "text": "ICMP spoofing attack redirecting traffic to malicious router."
+    }
+  ] 
